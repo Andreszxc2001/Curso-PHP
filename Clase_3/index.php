@@ -56,4 +56,4 @@ echo "<br>";
 
 echo "Sistema operativo del servidor: " . PHP_OS;
 
-?>
+// ?>
