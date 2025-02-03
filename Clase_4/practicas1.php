@@ -5,7 +5,7 @@ define('SALARIO_MINIMO', 1623000);
 // Definir datos
 $nombre_apellido = "Arnaldo Pushaina";
 $edad = 23;
-$salario = 5000000;
+$salario = 2000000;
 $deuda = 1000000;
 $porcentaje_crediticio = 850;
 $es_aprobado = false; // Condición actual
