@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+
+:root {
+    --primary-color: #eb4c03;
+    --secundary-color: #ffff;
+    --terciary-color: #000000;
+    --cuaternary-color: hsla(0, 100%, 35%, 0.527);
+    }    
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    margin-top: 7rem;
+}
+
+.item {
+    border: 1px solid var(--primary-color);
+    box-shadow: 0 0 5px var(--cuaternary-color);
+    padding: 2rem;
+    max-width: auto;
+    width: auto;
+    border-radius: 1rem;
+}
+.logo img {
+    display: block;
+    margin: auto;
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    margin-bottom: 1rem;
+    
+}
+.formulario {
+    margin-bottom:1rem;
+}
+
+.formulario label {
+    display: block;
+    margin-bottom: 1rem;
+    font-weight: bold;
+    font-size: 15px; /* Tamaño del texto del label */
+    font-weight: bold;
+}
+
+.formulario input {
+    width: 200px;  
+    padding: 1rem;
+    border: 1px solid var(--primary-color);
+    border-radius: 1rem;
+    box-sizing: border-box;
+    font-size: 10px;
+    height: 25px;
+}
+.formulario input:focus {
+    outline: none;
+    border: 2px solid var(--primary-color);
+    box-shadow: 0 0 5px var(--cuaternary-color);
+}
+.submit input  {
+    color: var(--primary-color);
+    background-color: var(--terciary-color);
+    padding: 3%;
+    border-radius: 0.6rem;
+    border: none;
+    cursor: pointer;
+    position: relative;
+    display: block;
+    margin: auto;
+    width: 200px; /*cambiar el tamaaño del boton*/
+}
+
+.submit input:focus {
+    outline: none;
+    border: 2px solid var(--primary-color);
+    box-shadow: 0 0 5px var(--cuaternary-color);
+}
+.check {
+    margin: 1rem 0;  /* Adds vertical spacing */
+}
+
+.check input[type="checkbox"] {
+        accent-color: var(--primary-color); /* Cambia al color que desees */
+    }
+
+.passfree a{
+    text-decoration: none;
+    font-size: 12px;
+    color: var(--primary-color);
+}
+
+
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="item">
+            <form action="">
+                <div class="logo">
+                    <a href=""><img src="/Lista/logoeiterra.png" alt="logo"></a>
+                </div>
+                <div class="formulario">
+                    <label for="">Correo</label>
+                    <input type="email" placeholder="Correo" required>
+                </div>
+                <div class="formulario">
+                    <label for="">Contraseña</label>
+                    <input type="password" placeholder="Contraseña"required
+                    >
+                </div>
+                <div class="check">
+                    <input type="checkbox" id="remember" style="width: auto; height: auto;">
+                    <label for="remember" style="display: inline;">Recordar contraseña</label>
+                </div>
+                <div class="submit">
+                    <input type="submit" value="Iniciar sesión">
+                </div>
+            </form>
+            <div class="passfree">
+                <a href="">¿Olvidaste tu contraseña?</a>
+            </div>
+        </div>
+      </div>
+</body>
+</html>
