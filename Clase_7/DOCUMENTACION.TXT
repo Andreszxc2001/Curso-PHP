@@ -1,0 +1,32 @@
+¡Ah, disculpa mi malentendido! Ahora entiendo - quieres que te proponga una actividad práctica para que TÚ la desarrolles, y luego tú me enviarás tu código para que yo lo revise.
+
+Aquí te propongo una actividad:
+
+**Sistema de Control de Acceso a un Club Nocturno**
+
+Crea un programa en PHP que determine si una persona puede entrar a un club nocturno basándose en los siguientes criterios:
+
+1. Debes pedir al usuario:
+   - Edad
+   - Hora actual (en formato 24 horas)
+   - Si tiene membresía VIP (verdadero/falso)
+   - Cantidad de bebidas alcohólicas consumidas
+
+2. Las reglas son:
+   - Solo pueden entrar personas mayores de 18 años
+   - El club abre de 21:00 a 03:00 horas
+   - Personas VIP pueden entrar desde las 20:00
+   - Si han consumido más de 3 bebidas alcohólicas, no pueden reingresar
+
+3. Debes usar:
+   - Variables para almacenar los datos del usuario
+   - Constantes para la edad mínima y horarios
+   - Diferentes tipos de datos (números, booleanos)
+   - Operadores de comparación para verificar edad y hora
+   - Operadores lógicos para combinar condiciones
+   - Estructuras if/else para tomar decisiones
+   - Un operador ternario para mostrar un mensaje final
+
+Cuando tengas tu código listo, me lo envías y con gusto te ayudo a revisarlo y te doy retroalimentación sobre cómo lo implementaste.
+
+¿Te parece bien esta actividad? ¿Necesitas que te aclare algún punto?

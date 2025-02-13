@@ -4,7 +4,8 @@ define('DESCUENTO', 0.15); // 15% de descuento
 define('ENVIO_GRATIS', 300000);
 define('COSTO_ENVIO', 10000);
 define('UMBRAL_DESCUENTO', 200000);
-
+$fg = input("fg"); 
+$
 // 2. Definir variables
 $precio_producto = 75000; // Precio unitario
 $cantidad = 1; // Cantidad de productos comprados

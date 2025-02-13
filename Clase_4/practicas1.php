@@ -5,7 +5,7 @@ define('SALARIO_MINIMO', 1623000);
 // Definir datos
 $nombre_apellido = "Arnaldo Pushaina";
 $edad = 23;
-$salario = 2000000;
+$salario = 2500000;
 $deuda = 1000000;
 $porcentaje_crediticio = 850;
 $es_aprobado = false; // Condición actual
@@ -13,7 +13,7 @@ $es_aprobado = false; // Condición actual
 $capacidad_pago = $salario - $deuda;
 
 // Definimos las condiciones para aprobar o rechazar el crédito
-if ($edad >= 18 && $salario >= ($deuda * 3) && $porcentaje_crediticio >= 700) {
+if ($edad >= 18 && $salario >= ($deuda * 3) && $porcentaje_crediticio >= 700 && $capacidad_pago >= SALARIO_MINIMO) {
     $es_aprobado = true;
 }
 ?>

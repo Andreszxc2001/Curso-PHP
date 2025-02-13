@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/3140323153.js" crossorigin="anonymous"></script>
     <title>Document</title>
     <style>
 
@@ -37,6 +38,14 @@
     margin-bottom: 1rem;
     
 }
+.logo img:focus {
+    outline: none;
+    border: 2px solid var(--primary-color);
+    box-shadow: 0 0 5px var(--cuaternary-color);
+}
+
+
+
 .formulario {
     margin-bottom:1rem;
 }
@@ -44,9 +53,7 @@
 .formulario label {
     display: block;
     margin-bottom: 1rem;
-    font-weight: bold;
     font-size: 15px; /* Tamaño del texto del label */
-    font-weight: bold;
 }
 
 .formulario input {
@@ -63,8 +70,8 @@
     border: 2px solid var(--primary-color);
     box-shadow: 0 0 5px var(--cuaternary-color);
 }
-.submit input  {
-    color: var(--primary-color);
+.submit button  {
+    color: var(--secundary-color);
     background-color: var(--terciary-color);
     padding: 3%;
     border-radius: 0.6rem;
@@ -76,7 +83,7 @@
     width: 200px; /*cambiar el tamaaño del boton*/
 }
 
-.submit input:focus {
+.submit button:focus {
     outline: none;
     border: 2px solid var(--primary-color);
     box-shadow: 0 0 5px var(--cuaternary-color);
@@ -107,20 +114,19 @@
                     <a href=""><img src="/Lista/logoeiterra.png" alt="logo"></a>
                 </div>
                 <div class="formulario">
-                    <label for="">Correo</label>
+                    <label for=""><i class="fa-solid fa-user"></i> Correo</label>
                     <input type="email" placeholder="Correo" required>
                 </div>
                 <div class="formulario">
-                    <label for="">Contraseña</label>
-                    <input type="password" placeholder="Contraseña"required
-                    >
+                    <label for=""><i class="fa-solid fa-lock"></i> Contraseña</label>
+                    <input type="password" placeholder="Contraseña"required >
                 </div>
                 <div class="check">
                     <input type="checkbox" id="remember" style="width: auto; height: auto;">
                     <label for="remember" style="display: inline;">Recordar contraseña</label>
                 </div>
                 <div class="submit">
-                    <input type="submit" value="Iniciar sesión">
+                    <button type="submit"><i class="fa-solid fa-right-to-bracket"></i> Iniciar sesion</button>
                 </div>
             </form>
             <div class="passfree">

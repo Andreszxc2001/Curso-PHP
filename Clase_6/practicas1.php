@@ -1,6 +1,6 @@
 <?php
 $usuario = "Arnaldo Pushaina";
-$rol = "";
+$rol = "Invitado";
 
 // Definición de roles como constantes
 define('ROLES', ["Admin", "User", "Invitado"]);
