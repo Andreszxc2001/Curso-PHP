@@ -9,5 +9,6 @@
 //Estructuras condicionales (if , if else)
 //Operadores ternarios
 //structura de selección múltiple (SWITCH Y MATCH)
+Estructuras repetitivas o bucles (WHILE Y DO WHILE)
 
 

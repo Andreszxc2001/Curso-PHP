@@ -1,0 +1,53 @@
+¡Ah, ahora entiendo! Te prepararé una actividad práctica para que tú la resuelvas.
+
+ACTIVIDAD PRÁCTICA DE PHP: "Sistema de Gestión de una Tienda de Videojuegos"
+
+CONTEXTO:
+Eres el programador de una tienda de videojuegos y necesitas crear un sistema básico para gestionar el inventario y las ventas.
+
+REQUERIMIENTOS:
+1. Crea un programa en PHP que simule la gestión de una tienda de videojuegos donde deberás:
+
+   - Crear variables para almacenar:
+     * Nombre del videojuego
+     * Precio
+     * Cantidad en stock
+     * Si está en oferta o no
+     * Porcentaje de descuento
+
+   - Crear al menos dos constantes:
+     * IVA (19%)
+     * DESCUENTO_MÁXIMO (50%)
+
+2. Implementa las siguientes funcionalidades:
+
+   a) Calcula el precio final de un videojuego considerando:
+      - El precio base
+      - El IVA
+      - Si tiene descuento, aplicarlo
+
+   b) Crea una estructura condicional que:
+      - Verifique si hay stock suficiente para una venta
+      - Si está en oferta, muestre un mensaje especial
+      - Si no hay stock, muestre un mensaje de "Agotado"
+
+   c) Utiliza un switch o match para:
+      - Clasificar el videojuego según su precio:
+        * Menos de $20: Económico
+        * Entre $20 y $50: Precio estándar
+        * Más de $50: Premium
+
+   d) Implementa un sistema de puntos de cliente usando while o do-while:
+      - Por cada $10 en compras, el cliente recibe 1 punto
+      - El bucle debe calcular cuántos puntos recibirá por una compra
+
+REGLAS:
+- Debes usar al menos un operador de cada tipo visto (asignación, aritméticos, comparación, lógicos)
+- Implementa al menos un operador ternario
+- Usa operadores de asignación combinada para actualizar el stock
+
+BONUS:
+- Agrega un sistema de recomendaciones basado en el género del juego
+- Implementa un cálculo de envío gratuito si la compra supera cierto monto
+
+¿Te gustaría empezar con esta actividad? Puedo ayudarte si tienes dudas sobre algún punto específico o necesitas aclaraciones.
