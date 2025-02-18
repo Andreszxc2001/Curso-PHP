@@ -2,9 +2,9 @@
 
 
 // Estructuras repetitivas o bucles (WHILE Y DO WHILE)
-$numero = 1;
+$numero = 10;
 
-while ($numero <= 2) {
+while ($numero <= 15) {
     echo "el numero es $numero <br>";
     //empleas un operador de incremento para que el bucle no sea infinito
     $numero++;
